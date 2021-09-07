@@ -7,14 +7,11 @@
  */
 
 import React from "react";
-import {Text, View} from "react-native";
+import "react-native-gesture-handler";
+import AppNavigator from "navigations";
 
 const App = () => {
-    return (
-        <View>
-            <Text>Hello from react native</Text>
-        </View>
-    );
+    return <AppNavigator />;
 };
 
 export default App;
